@@ -1,0 +1,89 @@
+
+.text-center {
+    text-align: left;
+  }
+  
+  
+  body {
+     background-image: url("gradient.jpg.png");
+     /* background-image: url("bg.jpg");*/ 
+     height: 100%;
+     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    
+    
+    .weather-app {
+      max-width: 800px;
+      margin: 0 auto;
+      height: 450px;
+      
+      background-color: #ffffff8e;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .weather-info {
+     border-top: 1px solid #8f6262;
+      margin-top: 20px;
+    padding-top: 20px;
+    }
+    p{
+     background-color: rgba(255, 255, 255, 0.664);
+     Width:fit-content;
+    }
+    .loc {
+      cursor: pointer;
+      
+     border-radius: 5px;
+    font-size: 1rem;
+     padding: 0.5rem 1rem;
+     background-color: #1e1e1e;
+     color: #000000;
+     background: rgba(255, 255, 255, 0.21);
+   }
+   .container {
+      /* background: rgba(0, 0, 0, 0.71); */	
+      border-radius: 10px;
+      border: 1px solid rgba(255, 255, 255, 0.38);
+      background: rgba(255, 255, 255, 0.292);
+      backdrop-filter: blur(15px);
+      color: #140606;
+      padding: 2rem;
+      width: 40%;
+      margin: 2rem auto;
+      border-radius: 10px;
+   }
+   .weather__header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    input{
+      border
+      : none;
+      background: #1e1e1efc;
+      outline: none;
+      color: #fff;
+      padding: 0.5rem 2.5rem;
+      border-radius: 5px;
+    }
+    
+    input::placeholder {
+      color: #fff;
+    }
+    
+    .weather__search {
+      position: relative;
+    }
+    
+    .weather__search i {
+      position: absolute;
+      left: 10px;
+      top: 10px;
+      font-size: 15px;
+      color: #fff;
+    }
